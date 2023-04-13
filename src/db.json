@@ -1,0 +1,22 @@
+{
+  "studentsignup": [
+    {
+      "email": "Student1@gmail.com",
+      "User Name": "Student 1",
+      "Password": "123@abc",
+      "id": 1
+    },
+    {
+      "email": "Student2@gmail.com",
+      "User Name": "Student 2",
+      "Password": "123@abc",
+      "id": 2
+    },
+    {
+      "Email": "abc@gmail.com",
+      "User Name": "ABVC",
+      "Password": "abc@123",
+      "id": 3
+    }
+  ]
+}
