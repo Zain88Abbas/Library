@@ -1,19 +1,22 @@
 import { Component } from '@angular/core';
 import { StudentService } from '../services/student.service';
-
+import { Router } from '@angular/router';
+import { Signup } from '../data-type';
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.scss']
 })
 export class SignupComponent {
-  constructor(private student: StudentService) {
+  constructor(private student: StudentService, private router: Router) {
 
   }
-  signUp(data: object): void {
-    console.warn(data);
-    this.student.studentSignUp(data).subscribe((result)=>{
-      console.warn(result);
+  signUp(data: Signup): void {
+    
+    this.student.studentSignUp(data).subscribe((result) => {
+      if (result) {
+        this.router.navigate(['StudentHome']);
+      }
     });
   }
 }

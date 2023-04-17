@@ -17,6 +17,30 @@
       "User Name": "ABVC",
       "Password": "abc@123",
       "id": 3
+    },
+    {
+      "Email": "azamkhan@studentmail.com",
+      "User Name": "Azam Khan",
+      "Password": "123@abc",
+      "id": 4
+    },
+    {
+      "Email": "TonyAdams@gmail.com",
+      "User Name": "Tony Adams",
+      "Password": "123@abc",
+      "id": 5
+    },
+    {
+      "Email": "ChrisAdams@gmail.com",
+      "User Name": "Chris Adams",
+      "Password": "123@abc",
+      "id": 6
+    },
+    {
+      "Email": "rauf.fullstack@gmail.com",
+      "User Name": "Rauf Abdur",
+      "Password": "123@abc",
+      "id": 8
     }
   ]
 }
