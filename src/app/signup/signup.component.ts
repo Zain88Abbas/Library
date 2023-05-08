@@ -13,11 +13,7 @@ export class SignupComponent {
   }
   signUp(data: Signup): void {
     
-    this.student.studentSignUp(data).subscribe((result) => {
-      if (result) {
-        this.router.navigate(['StudentHome']);
-      }
-    });
+    this.student.studentSignUp(data);
   }
 }
 

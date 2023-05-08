@@ -13,34 +13,16 @@
       "id": 2
     },
     {
-      "Email": "abc@gmail.com",
-      "User Name": "ABVC",
-      "Password": "abc@123",
+      "Email": "Student3@gmail.com",
+      "User Name": "Student 3",
+      "Password": "123@abc",
       "id": 3
     },
     {
-      "Email": "azamkhan@studentmail.com",
-      "User Name": "Azam Khan",
-      "Password": "123@abc",
+      "Email": "ayzan.works@gmail.com",
+      "User Name": "",
+      "Password": "",
       "id": 4
-    },
-    {
-      "Email": "TonyAdams@gmail.com",
-      "User Name": "Tony Adams",
-      "Password": "123@abc",
-      "id": 5
-    },
-    {
-      "Email": "ChrisAdams@gmail.com",
-      "User Name": "Chris Adams",
-      "Password": "123@abc",
-      "id": 6
-    },
-    {
-      "Email": "rauf.fullstack@gmail.com",
-      "User Name": "Rauf Abdur",
-      "Password": "123@abc",
-      "id": 8
     }
   ]
 }
